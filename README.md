@@ -11,3 +11,4 @@ npx knex migrate:make migration_name
 
 npx knex migrate:latest --env development
 npx knex migrate:make create_users
+knex migrate:make add_default_user
